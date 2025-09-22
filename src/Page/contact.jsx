@@ -1,16 +1,20 @@
 import './contact.css'
-
-function handleSubmit(e) {
-    e.preventDefault();
-}
+import { useNavigate } from "react-router-dom";
 
 export default function Contact() {
+    const navigate = useNavigate();
+
+    function handleSubmit(e) {
+        e.preventDefault();
+        navigate("/");
+    }
+
     return (
         <section className="contact-section">
             <h1 className="contact-title">Contact Me</h1>
 
             <div className="contact-layout">
-                {/* LEFT: Form (col-6) */}
+                {/* LEFT: Form */}
                 <form className="contact-form" onSubmit={handleSubmit} noValidate>
                 <label className="field">
                     <span className="label">Name</span>
@@ -65,7 +69,7 @@ export default function Contact() {
                 <button className="btn" type="submit">Send Message</button>
                 </form>
 
-                {/* RIGHT: My details (col-6) */}
+                {/* RIGHT: My details */}
                 <aside className="contact-aside">
                 <h2 className="aside-title">My details</h2>
                 <ul className="contact-list">
@@ -83,7 +87,6 @@ export default function Contact() {
                     </li>
                 </ul>
 
-                {/* Optional: small note */}
                 <p className="aside-note">I usually reply within 24 hours.</p>
                 </aside>
             </div>
