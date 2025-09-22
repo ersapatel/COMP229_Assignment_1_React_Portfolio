@@ -28,24 +28,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* QUICK LINKS */}
-      <div className="home-links">
-        <NavLink to="/about" className="link-card">
-          <h3>About</h3>
-          <p>Who I am, how I work, and what I value when building software.</p>
-        </NavLink>
-
-        <NavLink to="/services" className="link-card">
-          <h3>Services</h3>
-          <p>Web/mobile delivery, migrations, content systems, and project leadership.</p>
-        </NavLink>
-
-        <NavLink to="/projects" className="link-card">
-          <h3>Projects</h3>
-          <p>Snapshots of shipped features and the outcomes they achieved.</p>
-        </NavLink>
-      </div>
-
       {/* MISSION */}
       <section className="home-mission">
         <h2>My Mission</h2>
