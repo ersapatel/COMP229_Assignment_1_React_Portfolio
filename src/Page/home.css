@@ -67,6 +67,13 @@
     justify-content: center;
   }
   
+  /* QUICK LINKS */
+  .home-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 6px;
+  }
   .link-card {
     display: block;
     padding: 16px;
