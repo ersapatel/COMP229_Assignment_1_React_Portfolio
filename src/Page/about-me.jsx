@@ -1,3 +1,10 @@
+/**
+ * Name: Swapnil Patel
+ * Student Id: 301541762
+ * Date: 2025-09-23
+ * File: about-me.jsx
+ */
+
 import "./about-me.css";
 import me from "../assets/me.jpg";
 import resumePdf from "../assets/Resume.pdf";

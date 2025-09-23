@@ -1,3 +1,10 @@
+/**
+ * Name: Swapnil Patel
+ * Student Id: 301541762
+ * Date: 2025-09-23
+ * File: App.jsx
+ */
+
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import "./App.css";
 import spLogo from './assets/sp-logo.svg';

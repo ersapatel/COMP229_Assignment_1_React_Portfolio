@@ -1,3 +1,10 @@
+/**
+ * Name: Swapnil Patel
+ * Student Id: 301541762
+ * Date: 2025-09-23
+ * File: home.jsx
+ */
+
 import { NavLink } from "react-router-dom";
 import "./home.css";
 

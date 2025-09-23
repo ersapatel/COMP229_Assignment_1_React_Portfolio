@@ -1,4 +1,15 @@
+/**
+ * Name: Swapnil Patel
+ * Student Id: 301541762
+ * Date: 2025-09-23
+ * File: projects.jsx
+ */
+
 import "./projects.css";
+
+import projEcom from "../assets/ecommerce.png";
+import projHealth from "../assets/appointment-scheduler.png";
+import projLogistics from "../assets/transport.png";
 
 export default function Projects() {
   return (
@@ -11,9 +22,9 @@ export default function Projects() {
       <div className="projects-grid">
         {/* 1) Retail E-commerce Platform */}
         <article className="project-card">
-          <div className="project-media">
-            <span className="media-note">Storefront + Admin</span>
-          </div>
+          <figure className="project-media">
+            <img src={projEcom} loading="lazy" />
+          </figure>
           <h2 className="project-name">Retail E-commerce Platform</h2>
           <p className="project-summary">
             Rebuilt a high-traffic storefront and admin portal for scalability and speed.
@@ -34,9 +45,9 @@ export default function Projects() {
 
         {/* 2) Healthcare Appointment App */}
         <article className="project-card">
-          <div className="project-media">
-            <span className="media-note">Scheduling</span>
-          </div>
+          <figure className="project-media">
+            <img src={projHealth} loading="lazy" />
+          </figure>
           <h2 className="project-name">Healthcare Appointment App</h2>
           <p className="project-summary">
             Built a secure booking experience with virtual-visit support, reminders, and role-based access.
@@ -56,9 +67,9 @@ export default function Projects() {
 
         {/* 3) Logistics Tracking Portal */}
         <article className="project-card">
-          <div className="project-media">
-            <span className="media-note">Tracking</span>
-          </div>
+          <figure className="project-media">
+            <img src={projLogistics} loading="lazy" />
+          </figure>
           <h2 className="project-name">Logistics Tracking Portal</h2>
           <p className="project-summary">
             Implemented a real-time shipment tracker with maps, alerts, and operational dashboards.

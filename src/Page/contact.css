@@ -1,6 +1,12 @@
-/* Two equal columns: left form, right details */
+/*
+  Name: Swapnil Patel
+  Student Number: 301541762
+  Date: 2025-09-23
+  File: contacts.css
+*/
+
 .contact-section {
-    max-width: 1100px;          /* give both cols space */
+    max-width: 1100px;
     margin: 24px auto;
     padding: 24px;
     background: #fff;
@@ -13,16 +19,15 @@
   
   .contact-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr;  /* col-6 / col-6 */
+    grid-template-columns: 1fr 1fr;
     gap: 24px;
-    align-items: start;              /* top-align both columns */
+    align-items: start;
   }
 
   .city {
     color: #111827
   }
   
-  /* Left form keeps your existing styles */
   .contact-form { display: grid; gap: 14px; }
   .field { display: grid; gap: 6px; }
   .label { font-size: .95rem; color: #374151; }
@@ -78,9 +83,8 @@
     color: #4b5563;
   }
   
-  /* Ensure edges don’t touch the page sides */
+  
   .page { padding-inline: clamp(16px, 3vw, 32px); }
   
-  /* Defensive: prevent edge overflow with borders/padding */
   * { box-sizing: border-box; }
   

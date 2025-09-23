@@ -1,3 +1,10 @@
+/**
+ * Name: Swapnil Patel
+ * Student Id: 301541762
+ * Date: 2025-09-23
+ * File: contact.jsx
+ */
+
 import './contact.css'
 import { useNavigate } from "react-router-dom";
 
